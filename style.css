@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maitree&display=swap');
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Убираем внутренние отступы */
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+html {
+  font-size: 0.0652vw;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+    font-family: 'Lora', serif;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul[class],
+ol[class] {
+  list-style: none;
+}
+
+html {
+  font-size: 0,0652vw;
+}
+
+.virtually {
+    background-color: #F5F5F5;
+} 
+
+.virtually__COMTEHNO {
+    background-color: #4A7A75;
+
+    margin-bottom: 73rem;
+}
+.virtually__COMTEHNO__sub {
+    max-width: 1200rem;
+    margin: auto;
+}
+.virtually__COMTEHNO__sub h3 {
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 71rem;
+    line-height: 91rem;
+    display: flex;
+    justify-content: end;
+
+    color: #FFFFFF;
+    filter: blur(1rem);
+}
+
+.virtually__sub__title-img {
+    max-width: 1200rem;
+    margin: auto;
+}
+.virtually__sub__title-img h3{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50rem;
+    line-height: 64rem;
+    
+    color: #00443D;
+}
+.virtually__sub__title-img img {
+    max-width: 100%;
+}
